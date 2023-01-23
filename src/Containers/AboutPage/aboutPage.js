@@ -87,8 +87,6 @@ const AboutPage = () => {
         </button>
       </div>
 
-      {tab}
-
       {tab === "milestones" && <Milestones />}
       {tab === "team" && <Team />}
       {tab === "customers" && <Customers />}
