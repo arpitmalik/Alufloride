@@ -1,0 +1,62 @@
+.specificationsSection {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+
+.specificationsImg {
+  width: 100%;
+  border: 3px solid #0fb36c;
+  border-radius: 10px;
+}
+
+.specificationsTables {
+  margin-right: 15%;
+}
+
+.exploreNowButton,
+.productDatasheetButton {
+  display: flex;
+  justify-content: center;
+}
+
+.exploreNowButton .btn {
+  width: auto;
+  font-weight: 500;
+  border-radius: 2px;
+  margin-bottom: 6%;
+}
+
+.productDatasheetButton .btn {
+  width: auto;
+  font-weight: 500;
+  border-radius: 2px;
+  margin-top: 3%;
+}
+
+.Collapsible {
+  background-color: whites;
+  color: #0fb36c;
+  font-weight: 600;
+  padding: 2%;
+  border: 1px solid #0fb36c;
+}
+
+/* CSS FOR TABLE */
+table {
+  border: 2px solid forestgreen;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+th {
+  background-color: lightgray;
+  text-align: center;
+}
+
+td {
+  margin-right: 3%;
+  text-align: left;
+  border: 1px solid green;
+}

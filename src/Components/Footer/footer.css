@@ -1,0 +1,148 @@
+.upperSection {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 70%;
+  padding: 40px 0;
+}
+
+.footerSection {
+  background-color: #e5e5e5;
+}
+
+.footerLogo {
+  width: 40%;
+  margin-bottom: 5%;
+}
+
+.footerText {
+  text-align: left;
+  width: 55%;
+}
+
+.quickLinksSection {
+  margin-left: 15%;
+}
+
+.quickLinksHeading {
+  font-size: xx-large;
+  color: #0fb36c;
+}
+
+.quickLinksOptions {
+  display: flex;
+  margin-top: 10%;
+}
+
+.footerSection a {
+  color: black;
+  white-space: nowrap;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #0fb36c;
+  text-decoration: underline;
+}
+
+.quickLinksText {
+  margin-bottom: 10px;
+}
+
+.quickLinksRight {
+  margin-left: 40%;
+}
+
+.lowerSection {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1%;
+  padding: 2% 0;
+  border-top: 1px solid #0fb36c;
+}
+
+@media (max-width: 768px) {
+  .upperSection {
+    flex-direction: column-reverse;
+  }
+
+  .aboutCompany {
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+  }
+
+  .footerLogo {
+    width: 35%;
+    display: flex;
+    margin: auto;
+  }
+
+  .footerText {
+    margin: auto;
+  }
+
+  .quickLinksSection {
+    display: flex;
+    flex-direction: column;
+    margin: 3% 15% 0 0;
+  }
+
+  .quickLinksHeading {
+    text-align: center;
+  }
+
+  .quickLinksOptions {
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  .lowerSection {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .makerDetails {
+    margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 450px) {
+  .quickLinksHeading {
+    text-align: left;
+    margin-left: 10%;
+    font-size: x-large;
+  }
+
+  .quickLinksOptions {
+    margin-top: 8%;
+  }
+
+  .footerSection a {
+    font-size: smaller;
+  }
+
+  .footerText {
+    margin: auto;
+    font-size: smaller;
+  }
+
+  .lowerSection {
+    font-size: smaller;
+  }
+
+  .copyrightText {
+    font-size: small;
+  }
+
+  .makerDetails {
+    font-size: small;
+  }
+}
+
+@media (max-width: 350px) {
+  .footerText {
+    font-size: x-small;
+  }
+}

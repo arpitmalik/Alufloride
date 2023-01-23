@@ -1,0 +1,47 @@
+.gridContainer {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+.gridContainer .btn {
+  width: 100%;
+  color: #fff;
+  background-color: #0fb36c;
+  border: 1px solid #fff;
+  padding: 15px;
+  font-size: large;
+  text-align: center;
+  border-radius: 0%;
+}
+
+.gridContainer .btn:focus {
+  color: green;
+  background-color: #fff;
+  border: 1px solid green;
+}
+
+@media (max-width: 768px) {
+  .gridContainer {
+    flex-wrap: wrap;
+  }
+
+  .gridContainer .btn {
+    width: 50%;
+    font-size: small;
+  }
+
+  .imageText {
+    font-size: smaller;
+  }
+
+  .introBoxHello {
+    font-size: x-large;
+  }
+
+  .intro-box-para {
+    font-size: smaller;
+    width: 80%;
+  }
+}

@@ -1,0 +1,62 @@
+body {
+  margin: 0%;
+}
+
+.header {
+  background-color: #0fb36c;
+}
+
+.headerContent {
+  display: flex;
+  color: #fff;
+  margin-left: 10%;
+  padding: 1% 0;
+  min-height: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.mobileHeader {
+  display: none;
+}
+
+.headerItem {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+}
+
+.desktopHeader {
+  display: block;
+}
+
+.imageText {
+  font-size: medium;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5%;
+}
+
+.headerImage {
+  width: 10%;
+}
+
+@media (max-width: 600px) {
+  .headerItem {
+    margin-left: 20%;
+  }
+  .imageText {
+    margin-left: 8%;
+  }
+  .headerImage {
+    width: 20%;
+    max-height: 30px;
+    max-width: 30px;
+  }
+  .desktopHeader {
+    display: none;
+  }
+  .mobileHeader {
+    display: block;
+  }
+}

@@ -1,0 +1,43 @@
+
+.boxesContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box{
+    width: 30%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.boxHeading{
+    font-size: larger;
+    margin-bottom: 3%;
+    font-weight: bolder;
+}
+
+.box .grayNews{
+    padding: 2%;
+}
+
+
+.box .whiteNews{
+    padding: 2%;
+}
+
+@media(max-width:768px) {
+
+    .boxesContainer{
+        flex-direction: column;
+    }
+
+    .box{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}

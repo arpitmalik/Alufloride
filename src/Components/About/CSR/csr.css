@@ -1,0 +1,32 @@
+.csrPara {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+
+.csrDiagram{
+    display: flex;
+    width: 50%;
+    margin: 5% auto;
+}
+
+.csrImage{
+    width: 40%;
+    margin: 0 auto;
+}
+
+@media(max-width:768px) {
+    .csrPara {
+        font-size: small;
+        width: 80%;
+    }
+
+    .csrHeading {
+        font-size: x-large;
+    }
+    
+.csrImage{
+    width: 90%;
+}
+}

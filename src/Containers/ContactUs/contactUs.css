@@ -1,0 +1,96 @@
+.generalEnquiryContent {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+.NameField,
+.EmailField,
+.EnquiryField,
+.MessageArea {
+  margin-bottom: 5%;
+}
+
+.yourNameHeading,
+.yourEmailHeading,
+.NatureofEnquiryHeading,
+.messageHeading {
+  font-weight: 700;
+  margin-bottom: 1%;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.SubmitButtonArea {
+  white-sapce: nowrap;
+  display: flex;
+}
+
+.SubmitButtonArea .btn {
+  border-radius: 1px;
+}
+
+.ThankyouText {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 3%;
+}
+
+.generalEnquiryRight {
+  margin-left: 25%;
+}
+
+.CompanyNameSmall {
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+.CompanyAddressSmall {
+  width: 65%;
+  margin-bottom: 5%;
+}
+
+.CompanyContactSmall {
+  margin-bottom: 5%;
+}
+
+.MailImage,
+.ContactImage {
+  width: 10%;
+}
+
+.CompanyContactSmall,
+.CompanyMailSmall {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .generalEnquiryContent {
+    flex-direction: column-reverse;
+  }
+  .generalEnquiryRight {
+    margin-left: 0;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .SubmitButtonArea {
+    flex-direction: column;
+  }
+  .ThankyouText {
+    margin-left: 0;
+    margin-top: 3%;
+  }
+}
+
+@media (max-width: 440px) {
+  .generalEnquiryContent {
+    margin-left: 5%;
+  }
+}

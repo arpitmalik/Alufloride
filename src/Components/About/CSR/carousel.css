@@ -1,0 +1,26 @@
+.carouselSection{
+    display: flex;
+}
+
+.carouselItem{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid green;
+    margin-bottom: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.carouselItem img{
+width: 100%;
+}
+
+.carouselImage{
+    width: 100%;
+    border: 1px solid green
+}
+
+.carouselText{
+    padding: 3%;
+}

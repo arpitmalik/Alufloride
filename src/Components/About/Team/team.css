@@ -1,0 +1,108 @@
+.keyManagementSection {
+  background-color: lightgray;
+}
+
+.keyManagement .hr {
+  opacity: 0.5;
+  margin: 0;
+  color: green;
+}
+
+.keyManagementBox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+
+.keyManagementDetails {
+  width: 15%;
+  padding: 1%;
+  background-color: #fff;
+  border: 1px solid green;
+}
+
+.bodDetails {
+  width: 30%;
+  margin-bottom: 2%;
+  padding: 1%;
+  background-color: #fff;
+  border: 1px solid green;
+}
+
+.keyManagementDetails:hover,
+.bodDetails:hover {
+  color: #fff;
+  background-color: #0fb36c;
+  cursor: pointer;
+}
+
+.keyManagementName,
+.bodName {
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.keyManagementPost,
+.bodPost {
+  font-style: italic;
+}
+
+.bodBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 3%;
+}
+
+@media (max-width: 768px) {
+  .keyManagementHeading {
+    font-size: x-large;
+    margin-bottom: 5%;
+  }
+
+  .keyManagementName {
+    font-size: smaller;
+  }
+
+  .keyManagementPost {
+    font-size: smaller;
+  }
+
+  .bodHeading {
+    font-size: x-large;
+    margin-bottom: 5%;
+  }
+
+  .bodName {
+    font-size: smaller;
+  }
+
+  .bodPost {
+    font-size: smaller;
+  }
+
+  .keyManagementBox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .keyManagementDetails {
+    width: 50%;
+    margin-bottom: 3%;
+  }
+
+  .bodBox {
+    margin-bottom: 0%;
+  }
+
+  .bodBox,
+  .bodBox2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bodDetails {
+    width: 50%;
+    margin-bottom: 3%;
+  }
+}

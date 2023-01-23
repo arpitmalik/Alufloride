@@ -1,0 +1,20 @@
+.environmentPara{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+
+.environmentText{
+    margin-bottom: 5%;
+}
+
+@media(max-width:768px){
+    .environmentPara{
+        font-size: small;
+        width: 80%;
+    }
+    .environmentHeading{
+        font-size: x-large;
+    }
+}

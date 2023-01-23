@@ -1,0 +1,72 @@
+.careerHeading {
+  margin-bottom: 1%;
+}
+
+.careerSubHeading {
+  font-size: large;
+  font-weight: 450;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.careerBoxes {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.careerSectionLeft {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.careerSectionRight {
+  margin: 0 auto;
+  margin-left: 10%;
+  width: 50%;
+}
+
+.careerSectionLeft :hover,
+.careerSectionRight :hover {
+  color: #fff;
+  background-color: #0fb36c;
+  cursor: pointer;
+}
+
+.positionBox {
+  width: 100%;
+  border: 2px solid #0fb36c;
+  margin-bottom: 10%;
+}
+
+.positionInfo {
+  padding: 3%;
+}
+
+.positionName {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.positionDetails {
+  margin-bottom: 5%;
+}
+
+.postedOnDetails {
+  margin-bottom: 1%;
+}
+
+@media (max-width: 768px) {
+  .careerBoxes {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .careerSectionRight {
+    margin: 0 auto;
+  }
+
+  .positionBox {
+    margin-bottom: 15%;
+  }
+}

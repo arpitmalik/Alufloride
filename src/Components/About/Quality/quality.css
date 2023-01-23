@@ -1,0 +1,53 @@
+.qualityPara,
+.qualityPara2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.managingDirector {
+    display: flex;
+    justify-content: flex-end;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.qualityPictures {
+    display: flex;
+    width: 55%;
+    margin: 4% auto;
+    justify-content: space-evenly;
+}
+
+.qualityLogo {
+    display: flex;
+    width: 20%;
+}
+
+@media(max-width: 768px) {
+
+    .qualityPara,
+    .qualityPara2 {
+        font-size: smaller;
+        width: 80%;
+    }
+
+    .qualityHeading {
+        font-size: x-large;
+    }
+
+    .qualityLogo {
+        display: flex;
+        width: 20%;
+        justify-content: space-evenly;
+    }
+
+    
+.managingDirector {
+    margin-top: 6%;
+}
+
+}

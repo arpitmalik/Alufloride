@@ -1,0 +1,109 @@
+.jobPostDetails {
+  margin-left: 10%;
+  margin-bottom: 3%;
+}
+
+.jobPostPosition {
+  text-align: left;
+  margin-bottom: 1%;
+}
+
+.jobPostViewAll {
+  margin-top: 1%;
+}
+
+.jobPostViewAll a {
+  color: #0fb36c;
+  text-decoration: none;
+}
+
+.jobPostViewAll a:hover {
+  color: #0fb36c;
+  text-decoration: underline;
+}
+
+.jobPostDetails2 {
+  display: flex;
+}
+
+.jobPostLeft {
+  width: 45%;
+  margin-left: 10%;
+}
+
+.jobPostRight {
+  margin-left: 10%;
+}
+
+.JobDescription,
+.resposibilitiesAndDuties,
+.requirements {
+  margin-bottom: 2%;
+}
+
+.jobDescriptionHeading,
+.resposibilitiesAndDutiesHeading,
+.requirementsHeading {
+  font-weight: bold;
+  margin-bottom: 0.5%;
+}
+
+.phoneNoField,
+.addressField,
+.resumeField,
+.coverLetterField {
+  margin-bottom: 5%;
+}
+
+.SubmitButtonArea2 {
+  white-sapce: nowrap;
+  display: flex;
+  margin-top: 10%;
+}
+
+.SubmitButtonArea2 .btn {
+  border-radius: 2px;
+}
+
+.ThankyouText2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 3%;
+}
+
+@media (max-width: 1050px) {
+  .jobPostPosition {
+    text-align: unset;
+  }
+  .jobPostDetails2 {
+    flex-direction: column;
+  }
+  .jobPostLeft {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .jobPostRight {
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .jobPostDetails {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .SubmitButtonArea2 {
+    white-sapce: unset;
+    flex-direction: column;
+    text-align: left;
+  }
+  .ThankyouText2 {
+    margin: 0;
+    margin-top: 5%;
+  }
+}
