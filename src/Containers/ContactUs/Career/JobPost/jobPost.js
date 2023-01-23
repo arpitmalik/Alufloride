@@ -14,7 +14,7 @@ const JobPost = () => {
           <div className="jobPostPosition">Position Here</div>
           <div className="jobPostLocation">Location | Nature Of Job</div>
           <div className="jobPostViewAll">
-            <a href="instagram.com">View All Jobs</a>
+            <a href="/career">View All Jobs</a>
           </div>
         </div>
 

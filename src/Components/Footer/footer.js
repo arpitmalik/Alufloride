@@ -22,24 +22,24 @@ const footer = () => {
           <div className="quickLinksOptions">
             <div className="quickLinksLeft">
               <div className="quickLinksText">
-                <a href="https://www.instagram.com/">Home</a>
+                <a href="/">Home</a>
               </div>
               <div className="quickLinksText">
-                <a href="https://www.instagram.com/">Company</a>
+                <a href="/company">Company</a>
               </div>
               <div className="quickLinksText">
-                <a href="https://www.instagram.com/">Investor Realtions</a>
+                <a href="/investorRelations">Investor Relations</a>
               </div>
             </div>
             <div className="quickLinksRight">
               <div className="quickLinksText">
-                <a href="https://www.instagram.com/">Products</a>
+                <a href="/products">Products</a>
               </div>
               <div className="quickLinksText">
-                <a href="https://www.instagram.com/">Career</a>
+                <a href="/contact/#careers">Career</a>
               </div>
               <div className="quickLinksText">
-                <a href="https://www.instagram.com/">Contact Us</a>
+                <a href="/contact">Contact Us</a>
               </div>
             </div>
           </div>
