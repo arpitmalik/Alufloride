@@ -16,12 +16,6 @@
   border-radius: 0%;
 }
 
-.gridContainer .btn:focus {
-  color: green;
-  background-color: #fff;
-  border: 1px solid green;
-}
-
 @media (max-width: 768px) {
   .gridContainer {
     flex-wrap: wrap;

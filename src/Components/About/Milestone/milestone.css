@@ -1,7 +1,15 @@
+.timelineImg {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 4%;
+}
 
-  .timelineImg{
+@media (max-width: 768px) {
+  .timelineImg {
     display: flex;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 4%;
   }
+}

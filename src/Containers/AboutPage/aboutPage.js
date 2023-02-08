@@ -15,10 +15,10 @@ const AboutPage = () => {
   const [tab, setTab] = useState("milestones");
 
   useEffect(() => {
-    setTab(window.location.hash.slice(1).toLowerCase());
-  }, [window.location.hash]);
+    if (window.location.hash)
+      setTab(window.location.hash.slice(1).toLowerCase());
+  }, []);
 
-  console.log(tab);
   return (
     <>
       <Header />
@@ -36,11 +36,11 @@ const AboutPage = () => {
         </div>
       </div>
 
-      <div class="gridContainer">
+      <div className="gridContainer">
         <button
           type="button"
           id="milestones"
-          class="btn"
+          className={`btn ${tab === "milestones" && "btn-active"}`}
           onClick={() => setTab("milestones")}
         >
           Milestones
@@ -48,7 +48,7 @@ const AboutPage = () => {
         <button
           type="button"
           id="team"
-          class="btn"
+          className={`btn ${tab === "team" && "btn-active"}`}
           onClick={() => setTab("team")}
         >
           Team
@@ -56,7 +56,7 @@ const AboutPage = () => {
         <button
           type="button"
           id="customers"
-          class="btn"
+          className={`btn ${tab === "customers" && "btn-active"}`}
           onClick={() => setTab("customers")}
         >
           Customers
@@ -64,7 +64,7 @@ const AboutPage = () => {
         <button
           type="button"
           id="quality"
-          class="btn"
+          className={`btn ${tab === "quality" && "btn-active"}`}
           onClick={() => setTab("quality")}
         >
           Quality
@@ -72,7 +72,7 @@ const AboutPage = () => {
         <button
           type="button"
           id="environment"
-          class="btn"
+          className={`btn ${tab === "environment" && "btn-active"}`}
           onClick={() => setTab("environment")}
         >
           Environment
@@ -80,7 +80,7 @@ const AboutPage = () => {
         <button
           type="button"
           id="CSR"
-          class="btn"
+          className={`btn ${tab === "csr" && "btn-active"}`}
           onClick={() => setTab("csr")}
         >
           CSR
